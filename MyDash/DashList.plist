@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>title</key>
+			<string>Grains and grain products</string>
+			<key>minCount</key>
+			<integer>7</integer>
+			<key>maxCount</key>
+			<integer>8</integer>
+			<key>image</key>
+			<string>dash_grains</string>
+			<key>servingSizes</key>
+			<array>
+				<string>1 slice bread</string>
+				<string>1 cup ready-to-eat cereal</string>
+				<string>0.5 cup cooked rice, pasta or cereal</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Vegetables</string>
+			<key>minCount</key>
+			<integer>4</integer>
+			<key>maxCount</key>
+			<integer>5</integer>
+			<key>image</key>
+			<string>dash_veggies</string>
+			<key>servingSizes</key>
+			<array>
+				<string>1 cup raw leafy vegetable</string>
+				<string>0.5 cup cooked vegetable</string>
+				<string>6 ounces vegetable juice</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Fruits</string>
+			<key>minCount</key>
+			<integer>4</integer>
+			<key>maxCount</key>
+			<integer>5</integer>
+			<key>image</key>
+			<string>dash_fruits</string>
+			<key>servingSizes</key>
+			<array>
+				<string>1 medium fruit</string>
+				<string>0.25 cup dried fruit</string>
+				<string>0.5 cup fresh, frozen or canned fruit</string>
+				<string>6 ounces fruit juice</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Lowfat or fat-free dairy foods</string>
+			<key>minCount</key>
+			<integer>2</integer>
+			<key>maxCount</key>
+			<integer>3</integer>
+			<key>image</key>
+			<string>dash_dairy</string>
+			<key>servingSizes</key>
+			<array>
+				<string>8 ounces of milk</string>
+				<string>1 cup yogurt</string>
+				<string>1.5  ounces cheese</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Lean meats, poultry and fish</string>
+			<key>minCount</key>
+			<integer>1</integer>
+			<key>maxCount</key>
+			<integer>2</integer>
+			<key>image</key>
+			<string>dash_meat</string>
+			<key>servingSizes</key>
+			<array>
+				<string>3 ounces cooked lean meat</string>
+				<string>3 ounces cooked skinless poultry</string>
+				<string>3 ounces cooked fish</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Nuts, seeds and dry beans</string>
+			<key>minCount</key>
+			<real>0.57</real>
+			<key>maxCount</key>
+			<real>0.71</real>
+			<key>image</key>
+			<string>dash_nuts</string>
+			<key>servingSizes</key>
+			<array>
+				<string>0.33 cup or 1.5 ounces of nuts</string>
+				<string>1 tablespoon or 1.5 ounce seeds</string>
+				<string>0.5 cup cooked dry beans</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Fats and oils</string>
+			<key>minCount</key>
+			<integer>2</integer>
+			<key>maxCount</key>
+			<integer>3</integer>
+			<key>image</key>
+			<string>dash_oils</string>
+			<key>servingSizes</key>
+			<array>
+				<string>1 teaspoon soft margarine</string>
+				<string>1 tablespoon lowfat mayonnaise</string>
+				<string>2 tablespoons light salad dressing</string>
+				<string>1 teaspoon vegetable oil</string>
+			</array>
+		</dict>
+		<dict>
+			<key>title</key>
+			<string>Sweets</string>
+			<key>minCount</key>
+			<real>0.71</real>
+			<key>maxCount</key>
+			<real>0.71</real>
+			<key>image</key>
+			<string>dash_sweets</string>
+			<key>servingSizes</key>
+			<array>
+				<string>1 tablespoon sugar</string>
+				<string>1 tablespoon jelly or jam</string>
+				<string>0.5 ounch jelly beans</string>
+				<string>8 ounces lemonade</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>

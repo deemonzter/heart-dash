@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1ABF8D451CF5471E00B2C963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D441CF5471E00B2C963 /* AppDelegate.swift */; };
+		1ABF8D4A1CF5471E00B2C963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF8D481CF5471E00B2C963 /* Main.storyboard */; };
+		1ABF8D4D1CF5471E00B2C963 /* MyDash.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D4B1CF5471E00B2C963 /* MyDash.xcdatamodeld */; };
+		1ABF8D4F1CF5471E00B2C963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF8D4E1CF5471E00B2C963 /* Assets.xcassets */; };
+		1ABF8D521CF5471E00B2C963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF8D501CF5471E00B2C963 /* LaunchScreen.storyboard */; };
+		1ABF8D5C1CF547C100B2C963 /* DashItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D5B1CF547C100B2C963 /* DashItem.swift */; };
+		1ABF8D5F1CF5496700B2C963 /* DashList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1ABF8D5E1CF5496700B2C963 /* DashList.plist */; };
+		1ABF8D631CF54E0600B2C963 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D621CF54E0600B2C963 /* MainVC.swift */; };
+		1ABF8D651CF54E1000B2C963 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D641CF54E1000B2C963 /* DetailVC.swift */; };
+		1ABF8D671CF54E3100B2C963 /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D661CF54E3100B2C963 /* MainCell.swift */; };
+		1ABF8D6A1CF54E4200B2C963 /* DetailImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D691CF54E4200B2C963 /* DetailImageCell.swift */; };
+		1ABF8D6C1CF54F6100B2C963 /* DetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D6B1CF54F6100B2C963 /* DetailTextCell.swift */; };
+		1ABF8D6E1CF5555500B2C963 /* DashPopulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D6D1CF5555500B2C963 /* DashPopulator.swift */; };
+		1ABF8D701CF55C9A00B2C963 /* DashRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D6F1CF55C9A00B2C963 /* DashRepository.swift */; };
+		1ABF8D721CF55E2300B2C963 /* FormVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D711CF55E2300B2C963 /* FormVC.swift */; };
+		1ABF8D741CF5E83000B2C963 /* FormCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D731CF5E83000B2C963 /* FormCell.swift */; };
+		1ABF8D761CF6942E00B2C963 /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ABF8D751CF6942E00B2C963 /* AboutVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1ABF8D411CF5471D00B2C963 /* MyDash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1ABF8D441CF5471E00B2C963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1ABF8D491CF5471E00B2C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1ABF8D4C1CF5471E00B2C963 /* MyDash.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDash.xcdatamodel; sourceTree = "<group>"; };
+		1ABF8D4E1CF5471E00B2C963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1ABF8D511CF5471E00B2C963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1ABF8D531CF5471E00B2C963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1ABF8D5B1CF547C100B2C963 /* DashItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashItem.swift; sourceTree = "<group>"; };
+		1ABF8D5E1CF5496700B2C963 /* DashList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DashList.plist; sourceTree = "<group>"; };
+		1ABF8D621CF54E0600B2C963 /* MainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		1ABF8D641CF54E1000B2C963 /* DetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		1ABF8D661CF54E3100B2C963 /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
+		1ABF8D691CF54E4200B2C963 /* DetailImageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailImageCell.swift; sourceTree = "<group>"; };
+		1ABF8D6B1CF54F6100B2C963 /* DetailTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTextCell.swift; sourceTree = "<group>"; };
+		1ABF8D6D1CF5555500B2C963 /* DashPopulator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashPopulator.swift; sourceTree = "<group>"; };
+		1ABF8D6F1CF55C9A00B2C963 /* DashRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashRepository.swift; sourceTree = "<group>"; };
+		1ABF8D711CF55E2300B2C963 /* FormVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormVC.swift; sourceTree = "<group>"; };
+		1ABF8D731CF5E83000B2C963 /* FormCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FormCell.swift; sourceTree = "<group>"; };
+		1ABF8D751CF6942E00B2C963 /* AboutVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1ABF8D3E1CF5471D00B2C963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1ABF8D381CF5471D00B2C963 = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D431CF5471E00B2C963 /* MyDash */,
+				1ABF8D421CF5471D00B2C963 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1ABF8D421CF5471D00B2C963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D411CF5471D00B2C963 /* MyDash.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1ABF8D431CF5471E00B2C963 /* MyDash */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D441CF5471E00B2C963 /* AppDelegate.swift */,
+				1ABF8D611CF5499100B2C963 /* CoreData */,
+				1ABF8D601CF5497300B2C963 /* Res */,
+				1ABF8D591CF5473B00B2C963 /* Misc */,
+				1ABF8D5A1CF5475900B2C963 /* ViewControllers */,
+				1ABF8D5D1CF5493A00B2C963 /* Models */,
+				1ABF8D681CF54E3500B2C963 /* Views */,
+			);
+			path = MyDash;
+			sourceTree = "<group>";
+		};
+		1ABF8D591CF5473B00B2C963 /* Misc */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D531CF5471E00B2C963 /* Info.plist */,
+			);
+			name = Misc;
+			sourceTree = "<group>";
+		};
+		1ABF8D5A1CF5475900B2C963 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D621CF54E0600B2C963 /* MainVC.swift */,
+				1ABF8D641CF54E1000B2C963 /* DetailVC.swift */,
+				1ABF8D711CF55E2300B2C963 /* FormVC.swift */,
+				1ABF8D751CF6942E00B2C963 /* AboutVC.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1ABF8D5D1CF5493A00B2C963 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D5B1CF547C100B2C963 /* DashItem.swift */,
+				1ABF8D6D1CF5555500B2C963 /* DashPopulator.swift */,
+				1ABF8D6F1CF55C9A00B2C963 /* DashRepository.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		1ABF8D601CF5497300B2C963 /* Res */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D481CF5471E00B2C963 /* Main.storyboard */,
+				1ABF8D501CF5471E00B2C963 /* LaunchScreen.storyboard */,
+				1ABF8D5E1CF5496700B2C963 /* DashList.plist */,
+				1ABF8D4E1CF5471E00B2C963 /* Assets.xcassets */,
+			);
+			name = Res;
+			sourceTree = "<group>";
+		};
+		1ABF8D611CF5499100B2C963 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D4B1CF5471E00B2C963 /* MyDash.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		1ABF8D681CF54E3500B2C963 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1ABF8D661CF54E3100B2C963 /* MainCell.swift */,
+				1ABF8D691CF54E4200B2C963 /* DetailImageCell.swift */,
+				1ABF8D6B1CF54F6100B2C963 /* DetailTextCell.swift */,
+				1ABF8D731CF5E83000B2C963 /* FormCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1ABF8D401CF5471D00B2C963 /* MyDash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1ABF8D561CF5471E00B2C963 /* Build configuration list for PBXNativeTarget "MyDash" */;
+			buildPhases = (
+				1ABF8D3D1CF5471D00B2C963 /* Sources */,
+				1ABF8D3E1CF5471D00B2C963 /* Frameworks */,
+				1ABF8D3F1CF5471D00B2C963 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyDash;
+			productName = MyDash;
+			productReference = 1ABF8D411CF5471D00B2C963 /* MyDash.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1ABF8D391CF5471D00B2C963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Joseph Daryl Locsin";
+				TargetAttributes = {
+					1ABF8D401CF5471D00B2C963 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = 1ABF8D3C1CF5471D00B2C963 /* Build configuration list for PBXProject "MyDash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1ABF8D381CF5471D00B2C963;
+			productRefGroup = 1ABF8D421CF5471D00B2C963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1ABF8D401CF5471D00B2C963 /* MyDash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1ABF8D3F1CF5471D00B2C963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABF8D5F1CF5496700B2C963 /* DashList.plist in Resources */,
+				1ABF8D521CF5471E00B2C963 /* LaunchScreen.storyboard in Resources */,
+				1ABF8D4F1CF5471E00B2C963 /* Assets.xcassets in Resources */,
+				1ABF8D4A1CF5471E00B2C963 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1ABF8D3D1CF5471D00B2C963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1ABF8D5C1CF547C100B2C963 /* DashItem.swift in Sources */,
+				1ABF8D741CF5E83000B2C963 /* FormCell.swift in Sources */,
+				1ABF8D631CF54E0600B2C963 /* MainVC.swift in Sources */,
+				1ABF8D6E1CF5555500B2C963 /* DashPopulator.swift in Sources */,
+				1ABF8D671CF54E3100B2C963 /* MainCell.swift in Sources */,
+				1ABF8D761CF6942E00B2C963 /* AboutVC.swift in Sources */,
+				1ABF8D4D1CF5471E00B2C963 /* MyDash.xcdatamodeld in Sources */,
+				1ABF8D701CF55C9A00B2C963 /* DashRepository.swift in Sources */,
+				1ABF8D451CF5471E00B2C963 /* AppDelegate.swift in Sources */,
+				1ABF8D6A1CF54E4200B2C963 /* DetailImageCell.swift in Sources */,
+				1ABF8D721CF55E2300B2C963 /* FormVC.swift in Sources */,
+				1ABF8D651CF54E1000B2C963 /* DetailVC.swift in Sources */,
+				1ABF8D6C1CF54F6100B2C963 /* DetailTextCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1ABF8D481CF5471E00B2C963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABF8D491CF5471E00B2C963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1ABF8D501CF5471E00B2C963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1ABF8D511CF5471E00B2C963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1ABF8D541CF5471E00B2C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1ABF8D551CF5471E00B2C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1ABF8D571CF5471E00B2C963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nowplusplus.MyDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1ABF8D581CF5471E00B2C963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MyDash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nowplusplus.MyDash;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1ABF8D3C1CF5471D00B2C963 /* Build configuration list for PBXProject "MyDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABF8D541CF5471E00B2C963 /* Debug */,
+				1ABF8D551CF5471E00B2C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1ABF8D561CF5471E00B2C963 /* Build configuration list for PBXNativeTarget "MyDash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1ABF8D571CF5471E00B2C963 /* Debug */,
+				1ABF8D581CF5471E00B2C963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1ABF8D4B1CF5471E00B2C963 /* MyDash.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1ABF8D4C1CF5471E00B2C963 /* MyDash.xcdatamodel */,
+			);
+			currentVersion = 1ABF8D4C1CF5471E00B2C963 /* MyDash.xcdatamodel */;
+			path = MyDash.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1ABF8D391CF5471D00B2C963 /* Project object */;
+}
